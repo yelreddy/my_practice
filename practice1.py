@@ -9,3 +9,12 @@ for i in lst1:
     for j in lst2:
         if i==j:
             print("the Common element is " , i)
+
+# Program to Check odd even and Compute Squares
+for i in range(21):
+    if (i%2) !=0:
+        print(i)
+    elif i%2 ==0:
+        print(i**2)
+
+
